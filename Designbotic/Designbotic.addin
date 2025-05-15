@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Designbotic</Text>
+    <Description>Some description for Designbotic</Description>
+    <Assembly>Designbotic.dll</Assembly>
+    <FullClassName>Designbotic.Command</FullClassName>
+    <ClientId>3c2b317d-f7fe-44c6-97b4-4411f879fe51</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application Designbotic</Name>
+    <Assembly>Designbotic.dll</Assembly>
+    <FullClassName>Designbotic.App</FullClassName>
+    <ClientId>5e3cc904-a58d-49cf-b483-6c77c93d7e0b</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
